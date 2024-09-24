@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيرة الذاتية - أمير ممدوح</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F5F5F7;
+            color: #6E6E73;
+            line-height: 1.6;
+            direction: rtl;
+            text-align: right;
+            margin: 0 auto;
+            padding: 20px;
+            max-width: 800px;
+        }
+        h1, h2 {
+            color: #1D1D1F;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section-title {
+            background-color: #1D1D1F;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .section-content {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #FFFFFF;
+        }
+        .buttons {
+            margin-bottom: 20px;
+            text-align: left;
+        }
+        button {
+            padding: 10px;
+            margin-right: 10px;
+            background-color: #1D1D1F;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #6E6E73;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="buttons">
+        <button onclick="downloadCV()">تحميل السيرة الذاتية PDF</button>
+    </div>
+
+    <h1>أمير ممدوح</h1>
+    <p>منفوحة، الرياض، المملكة العربية السعودية</p>
+    <p><strong>البريد الإلكتروني:</strong> amir.mamdouh.abdelal@gmail.com</p>
+    <p><strong>رقم الهاتف:</strong> 0947 037 50 966+ </p>
+
+    <div class="section">
+        <h2 class="section-title">الملخص المهني</h2>
+        <div class="section-content">
+            <p>فني ذو خبرة في تصليح وصيانة مكيفات الهواء والغسالات، مع أكثر من 5 سنوات من الخبرة في صيانة وتصليح الأجهزة الكهربائية المنزلية، 
+            مع التركيز على رضا العملاء وجودة الخدمة. أتمتع بمهارات فنية عالية في اكتشاف الأعطال وإصلاحها بكفاءة وفعالية.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">الخبرات المهنية</h2>
+        <div class="section-content">
+            <h3>فني صيانة مستقل - (فترة الخدمة العسكرية)، القاهرة، الجيزة، مصر (2021 - 2023)</h3>
+            <ul>
+                <li>العمل بشكل مستقل في صيانة وتصليح مكيفات الهواء وغسالات الملابس لعدد كبير من العملاء.</li>
+                <li>التواصل المباشر مع العملاء وتحديد مواعيد الصيانة.</li>
+                <li>بناء علاقات طويلة الأمد مع العملاء من خلال تقديم خدمات عالية الجودة.</li>
+            </ul>
+
+            <h3>فني صيانة - ورشة صيانة وتصليح الأجهزة الكهربائية، الجيزة، مصر (2020 - 2021)</h3>
+            <ul>
+                <li>تشخيص وإصلاح الأعطال في مكيفات الهواء والغسالات والثلاجات لمختلف العلامات التجارية.</li>
+                <li>التواصل مع العملاء لشرح المشاكل والحلول بوضوح.</li>
+                <li>التعامل مع أعطال مختلفة.</li>
+            </ul>
+
+            <h3>فني صيانة مساعد - زانوسي، القاهرة، مصر (2017 - 2020)</h3>
+            <ul>
+                <li>إصلاح وصيانة مكيفات الهواء وغسالات الملابس والثلاجات في منازل العملاء وضمان عودتها للعمل بكفاءة عالية.</li>
+                <li>تركيب مكيفات الهواء الجديدة وضبطها وفقاً لمتطلبات العميل.</li>
+                <li>تقديم استشارات للعملاء حول كيفية الحفاظ على الأجهزة وتجنب المشاكل المستقبلية.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">التعليم</h2>
+        <div class="section-content">
+            <p>امبابة الثانوية العسكرية بنين، قسم تبريد وتكييف، الجيزة، مصر (2018 - 2021)</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">المهارات</h2>
+        <div class="section-content">
+            <ul>
+                <li>القدرة على العمل تحت الضغط وإدارة الوقت بفعالية.</li>
+                <li>مهارات اتصال ممتازة مع العملاء.</li>
+                <li>تشخيص وإصلاح أعطال مكيفات الهواء والغسالات والثلجات .</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">اللغات</h2>
+        <div class="section-content">
+            <ul>
+                <li>العربية: اللغة الأم.</li>
+                <li>الإنجليزية: مبتدئ.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        function downloadCV() {
+            const link = document.createElement('a');
+            link.href ='/amirMamdouh_CV.pdf'; 
+            link.download = 'السيرة الذاتية - أمير ممدوح.pdf';
+            link.click();
+        }
+    </script>
+
+</body>
+</html>
